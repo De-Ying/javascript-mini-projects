@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search Engine - DY</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+    <div class="lightbox">
+        <div class="lightbox__wrapper">
+            <header class="lightbox__header">
+                <div class="lightbox__photographer">
+                    <i class="lightbox__icon uil uil-camera"></i>
+                    <span class="lightbox__photographer-name"></span>
+                </div>
+                <div class="lightbox__buttons">
+                    <i class="lightbox__icon uil uil-import"></i>
+                    <i class="lightbox__icon uil uil-times"></i>
+                </div>
+            </header>
+            <div class="lightbox__preview-img">
+                <div class="lightbox__img">
+                    <img src="" alt="preview-img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="search">
+        <img src="images/search-img.jpg" alt="#" class="search__img">
+        <div class="search__content">
+            <h1 class="search__title">Thư viện hình ảnh</h1>
+            <p class="search__description">Tìm kiếm và tải xuống bất kỳ hình ảnh nào trong vòng một giây</p>
+            <div class="search-box">
+                <i class="search-box__icon uil uil-search"></i>
+                <input type="text" placeholder="Tìm kiếm hình ảnh" class="search-box__input">
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <ul class="gallery__img"></ul>
+
+        <button class="gallery__load-more">Tải thêm</button>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
